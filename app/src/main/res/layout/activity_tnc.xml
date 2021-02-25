@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TncActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="568dp"
+            android:src="@drawable/shape"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tnctext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"
+
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="107dp"
+            android:text="Terms And Conditions"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorInput"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/usersupview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.28"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/usersupview"
+            android:layout_width="334dp"
+            android:layout_height="540dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="46dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="1. Every help and contributions are suggested to be sent to Aid.id to ease the confirmation.
+        We will distribute the donation 100%, and users can check to the institute for certainty.\n\n2. Every items donated must be appropriate with the details given. \n\n3. Here, there are transparancy that allows you to check the item’s distribution and confirmation. \n\n4. Any unsuitable items may be returned or  used depends on the institue decision.\n\n5.  The rewards and appreciations can be excanged by collecting points from your total donations."
+            android:textAlignment="gravity"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/icbacksettnc"
+            android:layout_width="70dp"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="33dp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintEnd_toStartOf="@+id/tnctext"
+            app:layout_constraintHorizontal_bias="0.350"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.320"
+            app:srcCompat="@drawable/ic_back" />
+    </RelativeLayout>
+</ScrollView>

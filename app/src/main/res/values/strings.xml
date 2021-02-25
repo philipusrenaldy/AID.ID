@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Aid.id</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Aid.id</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="email">Email</string>
+    <string name="welcome_to_aid_id">Welcome to Aid.id!</string>
+    <string name="register">REGISTER</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="about_aid_id">Aid.id is a reliable platform to contribute to humanity by donating items and needs</string>
+    <string name="welcome">Ready to Contribute with Aid.id?</string>
+    <string name="get_started">Get Started</string>
+    <string name="already_have_an_account_login">Already Have an Account, Login ?</string>
+    <string name="splashscreen">SplashScreen</string>
+    <string name="intro">With AID.ID we help every people by doing a donation</string>
+    <string name="LoremIpsum">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="hospital">Hospital</string>
+    <string name="list_of_donation_available">List of Donation Available :</string>
+    <string name="view_all">View All</string>
+    <string name="title_activity_afterconfirm">afterconfirm</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_after_confirm_donate">AfterConfirmDonate</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="AboutUsText">Aid.id is a platform that makes it easy for all legal agencies such as hospitals, orphanages, community fundraisers, and other legal agencies to communicate their limitations. This platform can inform the needs and requirements that are still very much needed and have not been met. Here each application user can see the necessary items that the agency still needs, such as difficulties in obtaining clothes for orphanages amid this pandemic, lack of PPE for hospitals, etc. The application also displays each needs\' specifics so that donors can see the deadline for these items to be needed, completeness of needs, and the number of donations. This application is devoted to donating goods and needs, this is so that the measurement is clearer, and the results of donations are not used for other purposes that are not as needed. Application users can also get rewards associated with vouchers and collaboration with other parties if they achieve certain goals and milestones as a sign of gratitude.</string>
+</resources>
